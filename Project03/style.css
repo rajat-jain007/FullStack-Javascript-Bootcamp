@@ -1,0 +1,158 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+}
+.navbar-container {
+  width: 100%;
+  height: 6.5rem;
+  display: flex;
+  margin-top: 5rem;
+  justify-content: space-around;
+}
+.navbar-container img {
+  float: left;
+  height: 4rem;
+}
+.navbar-container .list {
+  display: flex;
+  margin-top: 1rem;
+}
+.navbar-container .list .list-item {
+  list-style-type: none;
+  margin-right: 5rem;
+  font-size: 1.5rem;
+  font-family: orbitron;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.navbar-container .list .list-item:first-child {
+  text-decoration: underline;
+  font-size: 1.7rem;
+  font-weight: bolder;
+}
+.navbar-container .list .list-item:hover {
+  color: #ff0000;
+}
+.button-group {
+  display: flex;
+}
+.button-group .search-icon {
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
+.button-group .nav-button {
+  padding: 0.5rem 4rem;
+  border-radius: 1rem;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+  font-weight: 300;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+.hero-container {
+  width: 100%;
+}
+.hero-container .square {
+  position: relative;
+  top: 33rem;
+  left: 30rem;
+}
+.hero-container .star:nth-child(2) {
+  position: relative;
+  top: -23rem;
+  left: 99rem;
+}
+.hero-container .star:nth-child(3) {
+  position: relative;
+  left: 28rem;
+  top: 30rem;
+}
+
+.hero-container .globe {
+  position: relative;
+  top: -26rem;
+  left: 31rem;
+}
+.hero-container > div > img {
+  position: absolute;
+  top: 18rem;
+  margin-left: 12.5rem;
+}
+.hero-container-right {
+  position: absolute;
+  top: 29rem;
+  width: 100%;
+  height: auto;
+}
+.hero-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: orbitron;
+  font-size: 4.5rem;
+  margin-left: 61rem;
+}
+.hero-description {
+  position: relative;
+  width: 39%;
+  margin-left: 78rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: Poppins;
+  margin-top: 5rem;
+}
+.hero-container-right .button-email {
+  margin-left: 95rem;
+  margin-right: 1.5rem;
+  padding: 0 2rem;
+  font-size: 1.5rem;
+  font-family: orbitron;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  margin-top: 11rem;
+  border: 2px solid #000000;
+  cursor: pointer;
+}
+.hero-container .button-join {
+  padding: 0 1.3rem;
+  font-size: 1.5rem;
+  font-family: orbitron;
+  font-weight: 500;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  border: 2px solid #000000;
+  cursor: pointer;
+}
+.contact-heading {
+  position: relative;
+  text-align: center;
+  margin-left: 70rem;
+  margin-top: 8rem;
+  font-size: 1.5rem;
+  font-family: poppins;
+  font-weight: 400;
+}
+.icons {
+  margin-left: 100rem;
+  margin-top: 2rem;
+  letter-spacing: 2rem;
+}
+.icons > span > img {
+  cursor: pointer;
+}
