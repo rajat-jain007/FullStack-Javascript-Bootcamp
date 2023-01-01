@@ -6,7 +6,7 @@ Growing Developer || Full Stack Developer || Tech Enthusiasts|| Keep learning ke
 
 | Project-Name             | Badges                                                         | LINKS                                                                                                                |
 | ------------------------ | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| SEO Master               | ![](https://img.shields.io/badge/SEO%20-Master-yellowgreen)    |                                                                                                                      |
+| SEO Master               | ![](https://img.shields.io/badge/SEO%20-Master-yellowgreen)    | [LINK](https://github.com/rajat-jain007/FullStack-Javascript-Bootcamp/tree/main/Project01)                           |
 | Crypto Market            | ![](https://img.shields.io/badge/CRYPTO-Market-yellow)         | [LINK](https://github.com/rajat-jain007/FullStack-Javascript-Bootcamp/tree/main/Project02)                           |
 | Fashion Hub              | ![](https://img.shields.io/badge/FASHION-HUB-yellowgreen)      | [LINK](https://github.com/rajat-jain007/FullStack-Javascript-Bootcamp/tree/main/Project03)                           |
 | VS code clone            | ![](https://img.shields.io/badge/VS-Code-yellowgreen)          | [LINK](https://github.com/rajat-jain007/FullStack-Javascript-Bootcamp/tree/main/vscode)                              |
