@@ -43,7 +43,6 @@ body {
   list-style: none;
 }
 .menu__list .menu_items a {
-  position: relative;
   text-decoration: none;
   color: #fff;
   display: flex;
@@ -51,7 +50,7 @@ body {
 }
 
 .rightmenu {
-  position: relative;
+  /* position: relative; */
 }
 .rightmenu .menu__list {
   color: #fff;
@@ -107,7 +106,7 @@ body {
   margin-bottom: 6rem;
   font-size: small;
 }
-.section__left__second .section__left__second__para {
+.section__left__second__para {
   display: flex;
   position: relative;
   margin-top: 6rem;
@@ -121,7 +120,7 @@ body {
 
 .section_get_started .btn-pink {
   position: absolute;
-  height: 1.5rem;
+  height: 2rem;
 }
 .get-started {
   z-index: 2;
@@ -457,6 +456,56 @@ body {
   top: 0;
   right: 0;
 }
+/* .last__heading {
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+} */
+.last__heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-size: 5rem;
+  width: 96rem;
+}
+.last__heading .last__heading_span {
+  color: #1c1c1c;
+}
+.section__sixth__heading {
+  display: flex;
+  position: relative;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  margin-left: 42rem;
+}
+
+.section_sixth_get_started {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.section_sixth_get_started .sixth_btn-pink {
+  position: absolute;
+  height: 2rem;
+}
+.sixth_get-started {
+  z-index: 2;
+  color: #fff;
+  margin-left: 1.5rem;
+  font-size: small;
+}
+.section__left__second__para .right-arrow {
+  margin-left: 1rem;
+}
+
+/*------------------ Footer  -----------------*/
 .footer {
   height: 20vh;
   background-color: #1c1c1c;
