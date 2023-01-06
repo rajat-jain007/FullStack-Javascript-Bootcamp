@@ -1,5 +1,23 @@
-# Replicate the Following Output
+## Project - GAMING Landing Page
 
-`Assests are Provided!`
+- A sample Project made for learning Purpose
 
-![Project 3](./Gaming%20Landing%20Page.png)
+## Acknowledgements
+
+- Thanks to Mr Hitesh Chowdhury and Mr Anuragh Tiwari for their amazing mentorship
+
+## Tech Stack:-
+
+- **HTML & CSS**
+
+## IDE:-
+
+- **Visual Studio Code**
+
+## Screenshots
+
+![App Screenshot](/Gaming%20Landing%20Page.png)
+
+## License
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
