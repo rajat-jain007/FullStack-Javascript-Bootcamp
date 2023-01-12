@@ -250,7 +250,6 @@ html {
   background-size: cover;
   width: 25%;
   height: 35rem;
-
   transition: all 1s;
 }
 .section-two-card:hover {
@@ -633,7 +632,7 @@ html {
 }
 .section-six-heading {
   position: absolute;
-  top: 25%;
+  top: 35%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -665,9 +664,73 @@ html {
   }
 }
 .para-six {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.section-six-top button {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.get-started-2:hover {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  scale: 1.1;
 }
 /* ----------- Section-6  ------------*/
+.six-subsection {
+}
 .row {
   display: flex;
-  font-size: 2rem;
+  gap: 3rem;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+  padding: 3rem;
+}
+.column-1 {
+  line-height: 4rem;
+}
+.column-1 .para-white {
+  margin-bottom: 1.5rem;
+}
+.heading-flex {
+  font-weight: bold;
+}
+.column-2 {
+  color: #fff;
+  line-height: 3rem;
+}
+.column-3 {
+  color: #fff;
+  line-height: 3rem;
+}
+.column-4 {
+  color: #fff;
+  line-height: 3rem;
+}
+.column-5 {
+  color: #fff;
+  line-height: 3rem;
+}
+
+footer {
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(3, 10, 17, 1) 60%,
+    rgba(13, 58, 68, 1) 100%
+  );
+  min-height: 4rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
 }
