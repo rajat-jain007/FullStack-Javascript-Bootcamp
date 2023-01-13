@@ -195,11 +195,17 @@ html {
 /* ------------ Section-2 --------------- */
 
 .section-two {
-  background: radial-gradient(
-    circle at 24.1% 68.8%,
-    rgb(50, 50, 50) 0%,
-    rgb(0, 0, 0) 99.4%
-  );
+  background: -webkit-linear-gradient(
+    to right,
+    #1f1c18,
+    #8e0e00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1f1c18,
+    #8e0e00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   padding: 1.5rem;
 }
 .section-two-top {
@@ -321,11 +327,16 @@ html {
 /*------------ Section - 3 ----------*/
 .section-three {
   display: flex;
-  background: radial-gradient(
-    circle at 24.1% 68.8%,
-    rgb(50, 50, 50) 0%,
-    rgb(0, 0, 0) 99.4%
-  );
+  background: -webkit-linear-gradient(
+    to right,
+    #1f1c18,
+    #8e0e00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1f1c18,
+    #8e0e00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .section-three-image,
 .section-three-right {
@@ -343,7 +354,7 @@ html {
   transition: all 1s;
 }
 .section-three-image-5:hover {
-  box-shadow: 0px 0px 30px grey;
+  box-shadow: 0px 0px 40px grey;
   transition: all 0.5s;
 }
 /* .section-three-right{
@@ -386,11 +397,7 @@ html {
 /* -------------------Section-4  -------------- */
 
 .section-four {
-  background: linear-gradient(
-    115deg,
-    rgb(0, 0, 0) 5.8%,
-    rgb(178, 14, 14) 112.6%
-  );
+  background: linear-gradient(to bottom, #200122, #6f0000);
 }
 .section-four-top {
   display: flex;
@@ -685,8 +692,8 @@ html {
   scale: 1.1;
 }
 /* ----------- Section-6  ------------*/
-.six-subsection {
-}
+/* .six-subsection {
+} */
 .row {
   display: flex;
   gap: 3rem;
