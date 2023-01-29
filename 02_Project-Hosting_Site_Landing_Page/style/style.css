@@ -34,3 +34,6 @@
   border-radius: 50%;
   background-color: #fff;
 } */
+.section-three-heading {
+  display: flex;
+}
