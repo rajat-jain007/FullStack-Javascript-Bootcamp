@@ -105,13 +105,14 @@ html {
   right: 7rem;
   top: 21rem;
 }
-
+/* ----------FOUR LOGOS */
 .four-logos {
   background-color: #232222;
   padding: 2.5rem;
   display: flex;
   justify-content: space-around;
 }
+/* ------------ Section 2 ------------------ */
 .section-two {
 }
 .section-two-heading {
@@ -180,6 +181,7 @@ html {
 .section-two-features {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 8rem;
 }
 .feature-left {
   margin-left: 3rem;
@@ -200,7 +202,7 @@ html {
   border: 1px solid #232222;
   transition: all 0.5s;
 }
-.feature-left h4:last-child{
+.feature-left h4:last-child {
   margin-bottom: 0;
 }
 
@@ -234,7 +236,7 @@ html {
   cursor: pointer;
   transition: all 0.5s;
 }
-.round{
+.round {
   height: 2rem;
   width: 2rem;
   border-radius: 50%;
@@ -245,10 +247,129 @@ html {
 .list-itmes:last-child {
   margin-bottom: 0;
 }
-.list-itmes:hover{
+.list-itmes:hover {
   background-color: #838383;
   color: #232222;
   transition: all 0.3s;
+}
+
+/* ------------Section 3 --------------- */
+
+.section-three {
+  background-color: #000000;
+}
+.section-three-top {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+}
+.arrow {
+  margin-top: 6rem;
+}
+.section-three-heading {
+  text-align: center;
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+.section-three-cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card-1 {
+  background-color: #fff;
+}
+.card-2 {
+  background-color: #456dff;
+  color: #fff;
+}
+.card-3 {
+  background-color: #fff;
+}
+
+.cards {
+  padding: 2rem;
+  border-radius: 2rem;
+  margin-bottom: 3rem;
+  /* max-width: 50%;
+  max-height: 50%; */
+}
+.cards h2 {
+  font-size: 3.5rem;
+}
+.cards > p:nth-child(2) {
+  font-size: 4rem;
+}
+.cards p span {
+  color: #232222;
+  font-size: 2.5rem;
+}
+.cards > p:nth-child(3) {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+}
+.card-1 > p:nth-child(3) {
+  margin-bottom: 3.5rem;
+}
+.plan-benefits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 3rem;
+}
+.plan-benefits > p {
+  margin-bottom: 3rem;
+}
+.card-1 > button,
+.card-3 > button {
+  padding: 1rem 8rem;
+  margin: auto;
+  display: flex;
+  align-content: center;
+  font-size: 2.5rem;
+  border-radius: 2rem;
+  background-color: #456dff;
+  border: none;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.card-2 > button {
+  padding: 1rem 8rem;
+  margin: auto;
+  display: flex;
+  align-content: center;
+  font-size: 2.5rem;
+  border-radius: 2rem;
+  background-color: #fff;
+  border: none;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.card-1 button:hover,
+.card-3 button:hover {
+  transition: all 0.5s;
+  background-color: #fff;
+  border: 1px solid #456dff;
+  box-shadow: 2px 1px 10px #456dff;
+}
+.card-2 button:hover {
+  transition: all 0.5s;
+  background-color: #456dff;
+  border: 1px solid #fff;
+  box-shadow: 2px 1px 10px #fff;
+}
+/*------------ Section 4 ------------*/
+.section-four {
+}
+.section-four-top {
+  display: flex;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding: 4rem;
+  justify-content: space-between;
 }
 /* h4 {
   display: flex;
