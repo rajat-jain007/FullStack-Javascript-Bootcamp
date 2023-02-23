@@ -16,5 +16,4 @@ Growing Developer || Full Stack Developer || Tech Enthusiasts|| Keep learning ke
 | Credit Card Landing Page              | ![](https://img.shields.io/badge/CREDIT-Card-yellowgreen)           | [LINK](https://github.com/rajat-jain007/FullStack-Javascript-Bootcamp/tree/main/01_Project-Credit_Card_Landing_Page) |
 | Gaming Landing Page                   | ![](https://img.shields.io/badge/GAMING-Landing--Page-lightgrey)    | [LINK](https://github.com/rajat-jain007/FullStack-Javascript-Bootcamp/tree/main/Gaming-Landing-Page)                 |
 | Javascript Problem Solving assignment | ![](https://img.shields.io/badge/JavaScript-Assignment-yellowgreen) | [LINK](https://github.com/rajat-jain007/FullStack-Javascript-Bootcamp/tree/main/Javascript-assignments)              |
-
 | Email-Subscribe-Layout-Using-Tailwind | ![](https://img.shields.io/badge/EMAIL-SUBSCRIBE-brightgreen) | [LINK](https://github.com/rajat-jain007/FullStack-Javascript-Bootcamp/tree/main/Tailwind-Project-Email-subscribe) |
