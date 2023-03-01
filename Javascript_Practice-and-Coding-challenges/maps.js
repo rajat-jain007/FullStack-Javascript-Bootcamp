@@ -1,3 +1,37 @@
+/* Map method is another way to loop over arrays
+
+Note:- Unlike forEach, Map method will give you brand new Array and this new array will contain the result of callback function in each position to the original array 
+*/
+
+const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+
+// Using Map Method
+const eurToUds = 1.1;
+
+/* Store it in variable since it will return brand new Array*/
+const toUsd = movements.map(function (element) {
+  return element * eurToUds;
+});
+console.log(movements);
+console.log(toUsd);
+
+// Testing Using For of Loop
+/* To push the result of the movement array, create an empty array*/
+const toUsdForof = [];
+for (element of movements) {
+  toUsdForof.push(element * eurToUds);
+}
+console.log(toUsdForof);
+
+// Note:- Map method has access to three pararmeters like forEach (element,index, array)
+
+const movementDescription = movements.map(function (element, index) {
+  return `Movements ${
+    index + 1
+  }: You ${element > 0 ? "Deposited" : "Withdrew"} ${Math.abs(element)}`;
+});
+console.log(movementDescription);
+
 const rest = new Map();
 rest.set("name", "Classic");
 rest.set(1, "France");
