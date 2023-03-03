@@ -62,6 +62,7 @@ console.log(rest.size);
 
 console.log(rest.get(arr));
 
+// You can create a Map by passing an Array to the new Map() constructor:
 const question = new Map([
   ["question", "What is the best programming language in the world"],
   [1, "C"],
@@ -91,3 +92,13 @@ console.log(newArr);
 //console.log([...question.entries()]);
 console.log([...question.keys()]);
 console.log([...question.values()]);
+
+/*
+Some of the difference between map() and forEach() methods are listed below −
+
+1) The map() method returns a new array, whereas the forEach() method does not return a new array.
+
+2) The map() method is used to transform the elements of an array, whereas the forEach() method is used to loop through the elements of an array.
+
+3) The map() method can be used with other array methods, such as the filter() method, whereas the forEach() method cannot be used with other array methods. 
+*/

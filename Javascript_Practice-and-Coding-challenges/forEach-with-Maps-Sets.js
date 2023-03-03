@@ -5,7 +5,7 @@ const currencies = new Map([
 ]);
 
 /* Map with forEach
-In map index is Key on the left side
+In map,, index is Key on the left side
 (i.e=> 'USD', 'EUR', 'GBP')in this case
 */
 currencies.forEach(function (element, index, array) {
